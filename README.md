@@ -1,4 +1,4 @@
-# Dob
+# jodb [dob]
 
 ## A simple json-based-database
 
