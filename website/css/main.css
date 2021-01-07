@@ -1,0 +1,135 @@
+* {
+  background: #191919;
+}
+
+footer {
+  word-spacing: 2px;
+  font-family: cursive;
+  color : rgb(255, 255, 255);
+  bottom: 0px;
+  display: block;
+  font-size: 13px;
+  /* height: 11.2px; */
+  left: 0px;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  text-size-adjust : 100%;
+}
+
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+footer a:hover {
+  text-decoration: underline;;
+}
+
+
+@font-face {
+    font-family: "myfont";
+    src: url("./fonts/font.woff") format("woff");
+}
+
+.link-bar {
+    margin-left : 12%;
+    margin-top : 2%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    padding-bottom : 5px;
+}
+
+/* The link hovering control */
+
+ul li a {
+    font-family: myfont;
+    color : rgb(86, 85, 83);
+    font-size: 50px;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-weight : 600;
+    letter-spacing: 0px;
+    transition: all 0.5s;
+}
+
+.contact:hover {
+    color : #EE9993;
+}
+.project:hover {
+    color : rgb(248, 188, 146);
+}
+
+.github:hover {
+    color : #f1f1ff;
+}
+
+ul li .reddit:hover {
+    color : #FF4500;
+}
+
+
+@font-face {
+    font-family: "myfont";
+    src: url("../fonts/font.woff") format("woff");
+}
+
+  /* The main whoami header */
+
+
+  .header {
+      text-overflow: hidden;
+  }
+.header header h1 {
+
+    font-family: myfont;
+    color : rgb(234, 233, 229);
+    font-size : 70.4px;
+    letter-spacing: -2px;
+    line-height: 20px;
+    text-transform: lowercase;
+    transition: all 0.5s;
+    display: block;
+    text-size-adjust: 100%;
+    margin-top : 16%;
+    margin-left : 15%;
+
+}
+
+.header header h3 {
+  font-family: myfont;
+  color: rgb(234, 233, 229);
+  font-size: 20.4px;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-transform: lowercase;
+  transition: all 0.5s;
+  margin-left : 15%;
+  word-spacing: 5px;
+}
+
+.header header h1::selection {
+      background-color : inherit;
+      color : #adadad;
+}
+
+.header header h1:hover {
+      opacity: 0.6;
+      /* text-decoration: underline; */
+}
+
+.header:hover .header header h1 {
+    opacity: 0.6;
+}
+
+
+
+
+
