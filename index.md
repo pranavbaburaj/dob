@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+## JDB
 
-You can use the [editor on GitHub](https://github.com/pranavbaburaj/json-based-database/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+JDB (Json-Based-Database) is a simple json database library for python
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### How to use it?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+Create a  file : `main.dob`
 
-# Header 1
-## Header 2
-### Header 3
+    main.dob
+<hr>
 
-- Bulleted
-- List
+    create~
+    admin~
+    var~x=10
+    print_var~x
+    add~(5)
+    delete~2
 
-1. Numbered
-2. List
+Create a database
 
-**Bold** and _Italic_ and `Code` text
+    create~
 
-[Link](url) and ![Image](src)
-```
+Add somthing to the database
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+    add~(add)
 
-### Jekyll Themes
+Delete (specify the number)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pranavbaburaj/json-based-database/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+    delete~1
 
-### Support or Contact
+Open up the admin panel
+The admin panel opens up at localhost:5000
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    admin~
+
+
+#### Admin urls
+add 
+
+    /add/thing_to_add
+
+delete
+
+    /delete/id_of_thing_to_delete
+
+
+### Connectors
+
+Available for
+
+ - JavaScript(jsdob)
+ - Python(pydob)
