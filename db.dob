@@ -1,3 +1,4 @@
-create~
+create~       # creates the database
 
-add~(3)
+add~335      # append '335' to the database
+admin~        # Opens up the admin panel
