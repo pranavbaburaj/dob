@@ -1,3 +1,0 @@
-# Re-implementation
-
-## Under construction
