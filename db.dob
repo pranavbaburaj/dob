@@ -2,3 +2,5 @@ create~       # creates the database
 
 add~335      # append '335' to the database
 admin~        # Opens up the admin panel
+# this is a command which is not picked up by
+# the dob interpreter
