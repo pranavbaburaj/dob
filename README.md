@@ -1,4 +1,4 @@
-# json-based-database
+# json-based-database[This project is no longer maintained]
 
 ## A simple json-based-database
 
@@ -49,5 +49,5 @@ delete
 
 Available for
 
- - JavaScript(jsdob)
- - Python(pydob)
+ - JavaScript(`jsdob`)
+ - Python(`pydob`)
